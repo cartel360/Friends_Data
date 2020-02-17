@@ -10,7 +10,7 @@ public class DataFriends {
 
     public static void main(String[] args) throws  IOException {
 
-        System.out.println("Enter the Numbers to take to a Party: ");
+        System.out.println("Enter the Number of Friends to take to the Party: ");
         int total_Friends = Integer.parseInt(br.readLine());
 
         String friends_Name[] = new String[total_Friends]; //assigning an array to store friends names
